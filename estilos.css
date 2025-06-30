@@ -1,0 +1,169 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 20px;
+  color: #003366;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+header {
+  text-align: center;
+}
+header h1 {
+  font-size: 2.2em;
+  margin-bottom: 5px;
+}
+header p {
+  font-size: 1em;
+  color: #555;
+}
+section {
+  margin-top: 30px;
+}
+section h2 {
+  font-size: 1.4em;
+  color: #003366;
+  margin-bottom: 10px;
+}
+.sobre-mi {
+  background-color: #e8f6ff;
+  padding: 15px;
+  border-radius: 10px;
+}
+.proyectos .card {
+  background-color: #fff4f4;
+  border-radius: 12px;
+  text-align: center;
+  height: 100%;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+.proyectos .card img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin: 0 auto 10px;
+}
+.proyectos .card-text {
+  padding: 0 10px;
+  max-width: 100%;
+  word-wrap: break-word;
+  white-space: normal;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+.habilidades .icons img {
+  width: 40px;
+  margin: 0 10px;
+}
+footer {
+  text-align: center;
+  margin-top: 30px;
+}
+footer .redes img {
+  width: 30px;
+  margin: 0 5px;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.modal-content {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  max-width: 400px;
+  text-align: center;
+  position: relative;
+}
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.proyectos .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.proyectos .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary {
+  background-color: #1E3A8A;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+.btn-primary:hover {
+  background-color: #3B82F6;
+}
+
+.modal-content {
+  animation: fadeIn 0.3s ease;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+
+.btn-react {
+  background-color: #61dafb;
+  color: #000;
+}
+.btn-react:hover {
+  background-color: #21a1f1;
+  color: #fff;
+}
+.btn-flutter {
+  background-color: #02569B;
+  color: #fff;
+}
+.btn-flutter:hover {
+  background-color: #0175C2;
+}
+.btn-python {
+  background-color: #FFD43B;
+  color: #306998;
+}
+.btn-python:hover {
+  background-color: #ffcc00;
+  color: #000;
+}
+.btn-frontend {
+  background-color: #E44D26;
+  color: #fff;
+}
+.btn-frontend:hover {
+  background-color: #FF5722;
+}
